@@ -1,0 +1,25 @@
+
+table{
+width:100%;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+border-radius:5px;
+}
+td, th{
+text-align:center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #0000001f;
+    height:50px;
+}
+.button-del{
+ border-radius:6px;
+ background-color:#D22B2B;
+ border-color:#0000;
+ margin:2px;
+}
+.button-edit{
+ border-radius:6px;
+ background-color:#000000;
+ border-color:#0000;
+ margin:2px;
+}
