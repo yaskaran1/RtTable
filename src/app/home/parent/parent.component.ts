@@ -50,7 +50,16 @@ export class ParentComponent implements OnInit {
               { checkbox: true ,name: 'satyam', email: 'abc@123' ,phone: 12, active: true, action:"delete"},
               { checkbox: false ,name: 'yaskaran', email: 'abc@123' ,phone: 12, active: false, action:"delete" },
               { checkbox: true ,name: 'karan', email: 'abc@123' ,phone: 12, active: false, action:"delete"},
-          ]
+              { checkbox: true ,name: 'satyam', email: 'abc@123' ,phone: 12, active: true, action:"delete"},
+              { checkbox: false ,name: 'yaskaran', email: 'abc@123' ,phone: 12, active: false, action:"delete" },
+              { checkbox: true ,name: 'karan', email: 'abc@123' ,phone: 12, active: false, action:"delete"},
+              { checkbox: true ,name: 'satyam', email: 'abc@123' ,phone: 12, active: true, action:"delete"},
+              { checkbox: false ,name: 'yaskaran', email: 'abc@123' ,phone: 12, active: false, action:"delete" },
+              { checkbox: true ,name: 'karan', email: 'abc@123' ,phone: 12, active: false, action:"delete"},
+              { checkbox: true ,name: 'satyam', email: 'abc@123' ,phone: 12, active: true, action:"delete"},
+              { checkbox: false ,name: 'yaskaran', email: 'abc@123' ,phone: 12, active: false, action:"delete" },
+              { checkbox: true ,name: 'karan', email: 'abc@123' ,phone: 12, active: false, action:"delete"},
+            ]
     }
  
   constructor() { }

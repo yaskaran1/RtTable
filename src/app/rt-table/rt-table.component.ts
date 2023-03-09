@@ -1,5 +1,5 @@
 import { Component, OnInit, Input,Output, EventEmitter } from '@angular/core';
-import { ParentComponent } from '../home/parent/parent.component';
+
 
 @Component({
   selector: 'app-rt-table',
@@ -12,6 +12,7 @@ export class RtTableComponent implements OnInit {
   @Output() delData=new EventEmitter<string>();
   @Output() editData=new EventEmitter<string>();
   checks=false;
+  p:number=1;
   
   constructor() { 
   }
